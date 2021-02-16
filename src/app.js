@@ -25,7 +25,6 @@ app.get('', (req, res) => {
         name: 'EEU Software'
     })
 })
-
 /* ============ PAGES ============== */
 app.get('/about', (req, res) => {
     res.render('about', {
