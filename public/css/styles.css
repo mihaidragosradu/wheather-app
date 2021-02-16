@@ -85,7 +85,7 @@
   }
 
   .logo{
-    width: 10rem;
+    width: 12rem;
     height: auto;
                       
   }
@@ -104,7 +104,7 @@
     border-top: 1px solid #eeeeee;
     color: #121212;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
     /* margin-top:calc(100vh/1.9); */
    
   }
@@ -126,6 +126,7 @@
   header a{
     color: #888888;
     margin-right: 1rem;
+    margin-left: -0.5rem!important;
     text-decoration: none!important;
   }
   #message-1{
@@ -137,12 +138,15 @@
   }
   #message-2{
     margin: 0 auto;
-    width: 25%;
+    
     text-align: left;
     font-size: 18px;
     line-height:1.5;
     white-space: pre-line;
   }
-
+p#about {
+  font-size: 18px;
+  line-height: 1.5;
+}
 
 

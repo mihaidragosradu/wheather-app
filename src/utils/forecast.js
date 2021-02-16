@@ -12,7 +12,7 @@ const forecast = (latitude, longitude, callback) => {
         } else {
             callback(undefined, 'Weather is <strong>'  + body.current.weather_descriptions[0]   + "</strong>" 
             + "\r\nCurrent temp is <strong>" + body.current.temperature + "</strong> degrees out"  
-            + "\r\nNow the time is: <strong>" + body.current.observation_time + "</strong>"
+            + "\r\nNow the time is: <strong>" + body.location.localtime + "</strong>"
             + "\r\nWind speed is: <strong>" + body.current.wind_speed + "</strong> km/h"
             + "\r\nWind direction: <strong>" + body.current.wind_dir + "</strong>"
             + "\r\nHumidity: <strong>" + body.current.humidity + "</strong>"

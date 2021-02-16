@@ -20,14 +20,17 @@
 </head>
 <body>
    <div class="container-fluid mt-5 main-content">
-       <div class="container text-center ">
-           <img class="logo mb-2" src="/assets/profileLogo.png" />
+       <div class="container">
+           <img class="logo mb-2" src="/assets/logoEEU.png" />
         {{>header}}
-        <p>{{helpText}}</p>
+       <p id="about">
+           This app uses data from 
+           <a href="https://www.mapbox.com/" target="_blank">mapbox.com</a> for geocoding <br />and <a href="https://weatherstack.com/" target="_blank">weatherstack.com</a> for wheather forecast.
+       </p>
        </div>
         
 </div>
-<div class="container-fluid mt-4">
+<div class="container mt-4">
        {{>footer}}
    </div>
   
